@@ -76,3 +76,7 @@ Functionality:
 - Task toggle (either you can press the on the task name or to press Check/Reset button, it uses the same function)
 
 ![image](https://user-images.githubusercontent.com/55087458/87015128-a9d93280-c1d5-11ea-97e9-8502b7cc7e86.png)
+
+- Testing the components
+
+![image](https://user-images.githubusercontent.com/55087458/87015740-7ba82280-c1d6-11ea-966f-e853e5c12722.png)
