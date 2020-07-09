@@ -16,6 +16,7 @@ This app is intended as a React pre-task for applying to Buutti as a developer.
 
 
 # Installation
+Navigate to the project's folder with "cd"
 
 Install the dependencies:
 
