@@ -1,11 +1,12 @@
-import React from 'react';
-import Bar from './components/Bar'
-import Hello from './components/Hello'
-import { TodosProvider } from './contexts/TodosContext'
+import React from 'react'
 import { Container, Typography } from '@material-ui/core'
-import { makeStyles } from '@material-ui/core/styles';
+import { makeStyles } from '@material-ui/core/styles'
 
-const useStyles = makeStyles((theme) => ({
+import TodoBar from './components/TodoBar'
+import TodoList from './components/TodoList'
+import { TodosProvider } from './contexts/TodosContext'
+
+const useStyles = makeStyles(() => ({
     frame: {
         background:"#d3f0db",
         color:"#388e3c",
@@ -16,19 +17,19 @@ const useStyles = makeStyles((theme) => ({
         margin: "50px auto"
     }
 
-  }));
+  }))
 
 
 function App() {
-    const classes = useStyles();
+    const classes = useStyles()
     return (
-        <Container maxWidth={'xs'} className={classes.frame}>
+        <Container maxWidth='xs' className={classes.frame}>
             <TodosProvider>
                 <Typography variant="h3" className="todo">TO DO ...</Typography>
-                <Hello />
-                <Bar />
+                <TodoList />
+                <TodoBar />
             </TodosProvider>
         </Container>
     )}
 
-export default App;
+export default App
