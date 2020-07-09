@@ -37,7 +37,7 @@ npm test
 
 ## React (Hooks/ functional components)
 Styling:
-- MATERIAL UI (Button /GRID /TextField /ICONS /Typography /Alert /MakeStyles (+ inline styling) 
+- MATERIAL UI (Button /GRID /TextField /ICONS /Typography /Alert /MakeStyles (+ inline styling))
 
 Functionality:
 - useState
